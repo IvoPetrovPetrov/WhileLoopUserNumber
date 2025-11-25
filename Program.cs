@@ -23,10 +23,9 @@ namespace WhileLoopUserNumber
 
             Console.WriteLine($"Here are the numbers from 1 to {userNumber}:");
 
-            while (defaultNumber <= userNumber)
+            for (int i = 1; i <= userNumber; i++)
             {
-                Console.WriteLine(defaultNumber);
-                defaultNumber++;
+                Console.WriteLine(i);
             }
         }
     }
