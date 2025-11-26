@@ -8,7 +8,6 @@ namespace WhileLoopUserNumber
         static void Main(string[] args)
         {
             int userNumber = 0;
-            int defaultNumber = 1;
 
             while ( userNumber <= 100 )
             {
